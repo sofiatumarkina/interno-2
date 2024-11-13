@@ -1,0 +1,44 @@
+.slider {
+  background: var(--section-background-color);
+
+  &__title {
+    color: var(--title-text-color);
+  }
+
+  &__image {
+    width: 70px;
+    height: 70px;
+  }
+
+  .card {
+    height: 340px;
+    background-color: var(--page-background-color);
+    border: none;
+    border-radius: 35px;
+
+    &__name {
+      font-family: var(--dm-font-family);
+    }
+
+    @media (width <= 993px) {
+      height: 250px;
+    }
+
+    @media (width <= 576px) {
+      height: 300px;
+    }
+  }
+
+  &__arrow {
+    all: initial;
+
+    &-icon {
+      background-image: url(/images/icons/slider-arrow-icon.svg);
+    }
+
+    &-next-icon {
+      background-image: url(/images/icons/slider-arrow-icon.svg);
+      transform: scale(-1, -1);
+    }
+  }
+}

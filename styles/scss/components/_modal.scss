@@ -1,0 +1,44 @@
+.modal {
+  &-content {
+    background-color: var(--section-background-color);
+    border: none;
+    border-radius: 30px;
+
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    @media (width <= 400px) {
+      width: 200px;
+    }
+  }
+  .btn-close {
+    border: none;
+  }
+  &-header {
+    border: none;
+    padding-bottom: 0 !important;
+  }
+  &-photo {
+    width: 100%;
+  }
+  h4 {
+    font-family: var(--dm-font-family);
+    color: black;
+  }
+  &__icon {
+    width: 50%;
+    height: 50%;
+    &-container {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: white;
+
+      @media (width <= 576px) {
+        width: 35px;
+        height: 35px;
+      }
+    }
+  }
+}

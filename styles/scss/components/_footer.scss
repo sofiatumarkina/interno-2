@@ -1,0 +1,19 @@
+.footer {
+  &__icon {
+    width: 15px;
+    height: 15px;
+    fill: var(--title-text-color);
+  }
+
+  &__title {
+    color: var(--title-text-color);
+  }
+
+  &__logo {
+    color: var(--title-text-color);
+  }
+
+  &__line {
+    width: 100% !important;
+  }
+}
