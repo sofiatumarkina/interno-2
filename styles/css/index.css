@@ -385,11 +385,6 @@
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
 }
-@media (width <= 400px) {
-  .modal-content {
-    width: 200px;
-  }
-}
 .modal .btn-close {
   border: none;
 }
