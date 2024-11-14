@@ -1,8 +1,5 @@
-@charset "UTF-8";
-/* Шрифты */
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
-/* Блоки */
 .header__menu-logo {
   font-family: var(--dm-font-family);
   font-size: 30px;
@@ -291,7 +288,6 @@
   width: 100% !important;
 }
 
-/* Компоненты */
 .card {
   transition: var(--transition);
   background: none;
@@ -389,6 +385,11 @@
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
 }
+@media (width <= 400px) {
+  .modal-content {
+    width: 200px;
+  }
+}
 .modal .btn-close {
   border: none;
 }
@@ -435,7 +436,6 @@
   opacity: 1;
 }
 
-/* Глобальные стили */
 :root {
   --dm-font-family: "DM Serif Display", serif;
   --jost-font-family: "Jost", sans-serif;
